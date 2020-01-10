@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "socialiiz-7-client-side-solution",
+    "id": "42abc020-ee2b-4eb4-b0cb-303500244a9f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/socialiiz-7.sppkg"
+  }
+}

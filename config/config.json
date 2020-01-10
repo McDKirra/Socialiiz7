@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "socialiiz-7-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/socialiiz7/Socialiiz7WebPart.js",
+          "manifest": "./src/webparts/socialiiz7/Socialiiz7WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Socialiiz7WebPartStrings": "lib/webparts/socialiiz7/loc/{locale}.js"
+  }
+}
